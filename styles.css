@@ -1,3 +1,93 @@
-footer {
-    border: solid 2px aliceblue;
+*{
+    background-color: black;
+    color: aliceblue;
+}
+
+header{
+    display: grid;
+    text-align: right;
+    max-width: 500px;
+}
+
+header img{
+    height: 150px;
+    grid-row: start;
+    grid-column: 1;
+}
+
+h1{
+    max-width: 300px;
+    grid-row: 2;
+    grid-column: 2;
+    font-weight: 800;
+    font-family: Lato, sans-serif;
+}
+
+h4{
+    max-width: 300px;
+    grid-row: 3;
+    grid-column: 2;
+    font-size: larger;
+    font-family: Roboto, serif;
+}
+
+hr{
+    box-shadow: 0px 0px 5px 5px #d7bfe5;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    border-bottom: 1px solid white;
+    text-shadow: 0px 2px 7px lightskyblue;
+    background-color: none;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 20%;
+}
+
+iframe{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 22%;
+    margin-left: 25%;
+}
+
+p {
+    background-color: bisque;
+    color: black;
+    border-radius: 15px;
+    padding: 8px;
+    box-shadow: 3px 8px 3px lightskyblue;
+}
+
+em, b{
+    background-color: bisque;
+    color: black;
+}
+
+footer{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+address, .soMedia{
+    color: black;
+    background-color: lightskyblue;
+    display: inline;
+}
+
+address{
+    font-size: 24px;
+    padding: 8px;
+    border-radius: 12px;
 }
